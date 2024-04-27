@@ -59,7 +59,7 @@ export default {
             const data = {
                 personalCode: this.personalCode,
                 periodInMonths: this.periodInMonths,
-                loanAMount: this.loanAmount
+                loanAmount: this.loanAmount
             };
 
             try {
