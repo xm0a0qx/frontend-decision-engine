@@ -9,7 +9,7 @@ class DecisionService {
         let config = {
             method: METHOD,
             maxBodyLength: Infinity,
-            url: DECISION_API_BASE_URL,
+            url: DECISION_API_BASE_URL + "/decide",
             headers: {
                 'Content-Type': 'application/json'
             },
